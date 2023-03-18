@@ -1,0 +1,85 @@
+﻿body {
+	font-family: Britannic;
+	font-weight: bold margin: 0;
+	padding: 0;
+	background-image: url("https://cdn1.vectorstock.com/i/1000x1000/13/40/todo-list-seamless-pattern-universal-background-vector-7561340.jpg")
+}
+
+.container {
+	max-width: 600px;
+	margin: 20px auto;
+	padding: 0 20px;
+}
+
+h1 {
+	text-align: center;
+	font-family: Broadway;
+}
+
+.form {
+	display: flex;
+}
+
+input[type="text"] {
+	flex: 1;
+	padding: 10px;
+	margin-right: 10px;
+	border: 4px solid black;
+	border-radius: 5px;
+	font-size: medium
+}
+
+button {
+	background-color: green;
+	color: black;
+	border: none;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size:20px;
+}
+
+button:hover {
+	background-color: lime;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+li {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	margin-bottom: 10px;
+	background-color: #f2f2f2;
+	border-radius: 5px;
+}
+
+li span {
+	flex: 1;
+	margin-right: 10px;
+}
+
+li button {
+	background-color: #f44336;
+	color: white;
+	border: none;
+	padding: 5px 10px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+li button.edit-btn {
+	background-color: orange;
+}
+
+li button:hover {
+	background-color: #da190b;
+}
+
+li button.edit-btn:hover {
+	background-color: olive;
+}
